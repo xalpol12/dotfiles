@@ -1,0 +1,20 @@
+live_config_reload = true
+
+[font]
+size = 9
+
+[font.bold]
+family = "JetBrainsMonoNL Nerd Font"
+style = "ExtraBold"
+
+[font.bold_italic]
+family = "JetBrainsMonoNL Nerd Font"
+style = "ExtraBold Italic"
+
+[font.italic]
+family = "JetBrainsMonoNL Nerd Font"
+style = "SemiBold Italic"
+
+[font.normal]
+family = "JetBrainsMonoNL Nerd Font"
+style = "SemiBold"

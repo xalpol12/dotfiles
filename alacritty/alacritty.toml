@@ -1,5 +1,12 @@
 live_config_reload = true
 
+# catppuccin-mocha.toml
+# rose-pine.toml
+
+import = [
+    "~/.config/alacritty/themes/rose-pine.toml"
+]
+
 [font]
 size = 9
 

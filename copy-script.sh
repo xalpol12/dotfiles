@@ -5,6 +5,8 @@ configs=(
 "alacritty"
 "htop"
 "i3"
+"polybar"
+"zathura"
 )
 
 for folder in ${configs[@]}

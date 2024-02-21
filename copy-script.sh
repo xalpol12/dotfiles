@@ -7,6 +7,7 @@ configs=(
 "htop"
 "i3"
 "polybar"
+"rofi"
 "zathura"
 )
 
@@ -49,7 +50,7 @@ if [ -f "/etc/lightdm/lightdm-gtk-greeter.conf" ]; then
     sudo cp /usr/share/pixmaps/background.jpg ./lightdm-greeter/resources/
     ((copied_etc_files+=2))
 else
-    echo "No lightdm-gtk-greeter.conf file detected, make sure that he file exist and you are using lightdm"
+    echo "No lightdm-gtk-greeter.conf file detected, make sure that the file exists and you are using lightdm"
 fi
 
 

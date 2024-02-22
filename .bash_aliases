@@ -15,3 +15,10 @@ alias ext-disp-left='$HOME/.config/i3/xrandr-monitors/dual-monitors-left-externa
 alias ext-disp-right='$HOME/.config/i3/xrandr-monitors/dual-monitors-right-external-left-primary.sh'
 alias ext-disp-up='$HOME/.config/i3/xrandr-monitors/dual-monitors-down-primary-up-external.sh'
 alias ext-disp-none='$HOME/.config/i3/xrandr-monitors/single-monitor-main.sh'
+
+# mounting
+alias list-disks='lsblk'
+
+# program shortcuts
+alias rr='ranger'
+alias v='nvim'

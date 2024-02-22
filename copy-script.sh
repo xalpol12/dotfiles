@@ -8,6 +8,7 @@ configs=(
 "i3"
 "polybar"
 "rofi"
+"tmux"
 "zathura"
 )
 

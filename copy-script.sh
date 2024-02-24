@@ -6,6 +6,7 @@ configs=(
 "alacritty"
 "htop"
 "i3"
+"neofetch"
 "polybar"
 "rofi"
 "tmux"
@@ -29,6 +30,7 @@ copied_bash_files=0
 home_configs=(
 ".bashrc"
 ".bash_aliases"
+".vimrc"
 )
 
 for file in ${home_configs[@]}

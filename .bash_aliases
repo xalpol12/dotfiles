@@ -18,7 +18,12 @@ alias ext-disp-none='$HOME/.config/i3/xrandr-monitors/single-monitor-main.sh'
 
 # mounting
 alias list-disks='lsblk'
+alias mount-atlas='sudo mount /dev/sda1 /media/atlas'
+alias unmount-atlas='sudo umount /media/atlas'
 
 # program shortcuts
 alias rr='ranger'
 alias v='nvim'
+
+# tmux color fix
+alias tmux='tmux -2'

@@ -120,4 +120,9 @@ export SUDO_EDITOR=nvim;
 export VISUAL=nvim;
 export EDITOR=nvim;
 . "$HOME/.cargo/env"
+
 source /home/dawid/extra/completions/alacritty.bash
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)

@@ -217,7 +217,24 @@ client.placeholder       $base     $base $text  $overlay   $overlay
 client.background        $base
 
 ####################
-## CUSTOM CONFIGS ##
+## WORKSPACE SETUP #
+####################
+
+exec --no-startup-id i3-msg 'sleep 1; workspace $ws1; exec alacritty -e tmux a'
+exec --no-startup-id i3-msg 'sleep 2; workspace $ws2; exec firefox'
+exec --no-startup-id i3-msg 'sleep 3; workspace $ws9; exec alacritty -e htop; workspace $ws1'
+
+####################
+## CUSTOM KEYBINDS #
+####################
+
+#interactive screenshot by pressing printscreen
+bindsym Print exec gnome-screenshot -i 
+#crop-area screenshot by pressing Mod + printscreen
+bindsym $mod+Print exec gnome-screenshot -a
+
+####################
+### CUSTOM EXECs ###
 ####################
 
 # display setups, change monitor placement if needed

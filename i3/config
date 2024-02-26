@@ -238,7 +238,7 @@ bindsym $mod+Print exec gnome-screenshot -a
 ####################
 
 # display setups, change monitor placement if needed
-exec "$HOME/.config/i3/xrandr-monitors/dual-monitors-left-external-right-primary.sh"
+exec "$HOME/.config/i3/xrandr-monitors/dual-monitors-down-primary-up-external.sh"
 
 # touchpad tapping, set first argument to a touchpad model
 # found in xinput list of i/o devices

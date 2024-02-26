@@ -9,6 +9,8 @@ alias gpu='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia'
 # network
 alias netreset='sudo systemctl restart networking'
 alias netscan='sudo iwlist wlp0s20f3 scan | grep SSID' # change network card id (wlp0s20d3) if necessary
+alias wifi='sudo ~/install-scripts/configs/switch-to-wifi.sh' 
+alias eth='sudo ~/install-scripts/configs/switch-to-ethernet.sh'
 
 # monitor configs
 alias ext-disp-left='$HOME/.config/i3/xrandr-monitors/dual-monitors-left-external-right-primary.sh'

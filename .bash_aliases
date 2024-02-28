@@ -9,6 +9,7 @@ alias gpu='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia'
 # network
 alias netreset='sudo systemctl restart networking'
 alias netscan='sudo iwlist wlp0s20f3 scan | grep SSID' # change network card id (wlp0s20d3) if necessary
+alias nettest='ping 8.8.8.8'
 alias wifi='sudo ~/install-scripts/configs/switch-to-wifi.sh' 
 alias eth='sudo ~/install-scripts/configs/switch-to-ethernet.sh'
 
@@ -26,6 +27,11 @@ alias unmount-atlas='sudo umount /media/atlas'
 # program shortcuts
 alias rr='ranger'
 alias v='nvim'
+alias gsync='rclone sync ~/gdrive/ gdrive:debian/ --progress'
 
-# tmux color fix
+# tmux
 alias tmux='tmux -2'
+alias tmux-put='tmux new -s put -c ~/gdrive/put'
+
+# the most important alias
+alias kurwa='sudo !!'

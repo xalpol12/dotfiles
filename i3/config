@@ -220,9 +220,10 @@ client.background        $base
 ## WORKSPACE SETUP #
 ####################
 
-exec --no-startup-id i3-msg 'sleep 1; workspace $ws1; exec alacritty -e tmux a'
-exec --no-startup-id i3-msg 'sleep 2; workspace $ws2; exec firefox'
-exec --no-startup-id i3-msg 'sleep 3; workspace $ws9; exec alacritty -e htop; workspace $ws1'
+# exec_always --no-startup-id i3-msg 'workspace $ws1; exec alacritty -e tmux a'
+# exec_always --no-startup-id firefox;
+# exec_always --no-startup-id i3-msg 'workspace $ws2; exec firefox'
+# exec_always --no-startup-id i3-msg 'workspace $ws9; exec alacritty -e htop; workspace $ws1'
 
 ####################
 ## CUSTOM KEYBINDS #

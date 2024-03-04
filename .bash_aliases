@@ -29,6 +29,9 @@ alias rr='ranger'
 alias v='nvim'
 alias gsync='rclone sync ~/gdrive/ gdrive:debian/ --progress'
 
+# config shortcuts
+alias i3-config='nvim ~/.config/i3/config'
+
 # tmux
 alias tmux='tmux -2'
 alias tmux-put='tmux new -s put -c ~/gdrive/put'

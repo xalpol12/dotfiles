@@ -36,5 +36,8 @@ alias i3-config='nvim ~/.config/i3/config'
 alias tmux='tmux -2'
 alias tmux-put='tmux new -s put -c ~/gdrive/put'
 
+# cd
+alias cd-put='cd ~/gdrive/put'
+
 # the most important alias
 alias kurwa='sudo !!'

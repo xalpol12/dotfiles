@@ -2,6 +2,7 @@
 :set nocompatible
 
 " relative line numbers
+:set number
 :set relativenumber
 
 :set scrolloff=10

@@ -33,11 +33,10 @@ alias gsync='rclone sync ~/gdrive/ gdrive:debian/ --progress'
 alias i3-config='nvim ~/.config/i3/config'
 
 # tmux
-alias tmux='tmux -2'
 alias tmux-put='tmux new -s put -c ~/gdrive/put'
 
 # cd
 alias cd-put='cd ~/gdrive/put'
 
-# the most important alias
-alias kurwa='sudo !!'
+# uni
+alias ssh-put='ssh inf147562@polluks.cs.put.poznan.pl'

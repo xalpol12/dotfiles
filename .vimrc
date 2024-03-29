@@ -9,7 +9,6 @@
 
 :set nowrap
 
-
 " search stuff
 :set ignorecase " case insensitive search
 :set incsearch " highlights items while increamentally searching

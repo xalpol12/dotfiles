@@ -40,3 +40,6 @@ alias cd-put='cd ~/gdrive/put'
 
 # uni
 alias ssh-put='ssh inf147562@polluks.cs.put.poznan.pl'
+
+# kubectl minikube
+alias kubectl='minikube kubectl --'
